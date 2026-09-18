@@ -14,6 +14,8 @@ Voidstrap used to fetch these from its own website. The website is shut down, so
 | `bin/NvOFFRUC.dll` | NVIDIA Optical Flow frame rate up conversion, optional, only for NVIDIA frame interpolation |
 | `bin/cudart64_110.dll` | NVIDIA CUDA runtime, optional, required by `NvOFFRUC.dll` |
 
+any other DLL, I completely forgotten about now and moved on from and isn't inside voidstraps code any longer
+
 Voidstrap downloads the two JSON files into its data folder and refreshes them at most once every six hours using conditional requests, so an unchanged file costs no bandwidth.
 
 ## The DLLs, in plain terms
